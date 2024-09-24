@@ -1,0 +1,20 @@
+body {
+    margin: auto;
+    border: 1px solid black;
+    width: 80%;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+h2 {
+    color: blue;
+}
+
+figure {
+    border: solid 1px black;
+    width: 250px;
+    padding: 5px;
+}
