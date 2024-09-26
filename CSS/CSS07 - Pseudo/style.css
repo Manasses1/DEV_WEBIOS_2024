@@ -1,34 +1,60 @@
 button {
-    background-color: blueviolet;
-    color: white;
-    width: 100px;
-    border-radius: 5px;
-    border-color: whitesmoke;
+  background-color: blueviolet;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  border-color: whitesmoke;
 }
 
 button:hover {
-    background-color: blue;
-    color: rgb(211, 12, 12);
-    width: 100px;
-    border-radius: 5px;
-    border-color: rgb(14, 39, 105);
-    cursor: pointer;
+  background-color: blue;
+  color: rgb(211, 12, 12);
+  width: 100px;
+  border-radius: 5px;
+  border-color: rgb(14, 39, 105);
+  cursor: pointer;
 }
 
 p:hover {
-    color: yellow;
-    background-color: blue;
+  color: yellow;
+  background-color: blue;
 }
 
 input:focus {
-    background-color: blueviolet;
-
+  background-color: blueviolet;
 }
 
-li:first-child{
-    border: 1px solid red;
+li:first-child {
+  border: 1px solid red;
 }
 
-li:nth-child(3){
-    border: solid 1px black;
+li:nth-child(3) {
+  border: solid 1px black;
+}
+
+#P2::after {
+  content: " - aqui nós adicionmos o after";
+  border: 1px solid black;
+}
+
+#P2::before {
+  content: "Aqui addemos o before ";
+  border: solid 2px red;
+}
+
+.p3::first-letter {
+font-size: 4em;
+color: chartreuse;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 1;
+}
+
+.p3::first-line{
+    background-color: aquamarine;
+    color: yellowgreen;
+}
+
+::selection{
+    background-color: aqua;
+    color: violet;
 }
