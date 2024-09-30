@@ -1,20 +1,57 @@
-body {
-    margin: auto;
+body{
+
     border: 1px solid black;
-    width: 80%;
+    background-color: rgb(188, 229, 229);
+    margin: 5px;
 }
 
-img {
-    width: 250px;
-    height: 200px;
+.container{
+    border: 1px solid black;
+    margin:0 10px 0
+}
+figure{
+    border: 1px solid black;
+    padding: 05px;
+    width: 260px;
+    text-align: center;
+    
+}
+#p1{
+    float: right;
+    width: 1150px;
+}
+#p2{
+    width: 1150px;
+    
 }
 
-h2 {
-    color: blue;
+#d3{
+    padding-bottom: 150px;
 }
 
-figure {
-    border: solid 1px black;
-    width: 250px;
+#i2{
+    float: right;
+}
+
+#i3{
+    float: left;
+}
+#i4{
+    float: right;
+}
+
+#d4{
+    padding-bottom: 130px;
+}
+
+ol, h2{
+    clear: both;
+}
+
+#table {
     padding: 5px;
+}
+
+footer {
+    padding: 10px;
 }
