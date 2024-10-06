@@ -1,0 +1,63 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+    grid-template-rows: repeat(6, 100px);  /* 6 linhas, altura de 100px cada */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+/* Adicionando borda a todos os itens */
+.container > div {
+    border: 1px solid black; /* Borda visível para as divisórias */
+}
+
+/* Primeira linha - dois itens, cada um ocupando duas colunas */
+.item1 {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.item2 {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+/* Segunda linha - um item ocupando todas as colunas */
+.item3 {
+    grid-column: span 4;
+    grid-row: 2;
+}
+
+/* Terceira linha - um item ocupando todas as colunas */
+.item4 {
+    grid-column: span 4;
+    grid-row: 3;
+}
+
+/* Quarta linha - item ocupando apenas a segunda e terceira coluna */
+.item5 {
+    grid-column: 2 / span 2;
+    grid-row: 4;
+}
+
+/* Quinta linha - item ocupando todas as colunas */
+.item6 {
+    grid-column: span 4;
+    grid-row: 5;
+}
+
+/* Sexta linha - três itens, o primeiro ocupando duas colunas, os outros dois uma coluna cada */
+.item7 {
+    grid-column: span 2;
+    grid-row: 6;
+}
+
+.item8 {
+    grid-column: span 1;
+    grid-row: 6;
+}
+
+.item9 {
+    grid-column: span 1;
+    grid-row: 6;
+}
+
