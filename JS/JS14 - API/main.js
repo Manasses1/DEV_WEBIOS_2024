@@ -9,7 +9,7 @@ const DogApi = async () => {
         // Apresntar as informações para o usuario
         document.getElementById('mostraJSON').innerText = JSON.stringify(response          );
 
-        let image = `<img style="width:200px; heigth: 200px;" src="${response.essage}" alt="">`
+        let image = `<img style="width:200px; heigth: 200px;" src="${response.message}" alt="">`
 
         document.getElementById('mostraIMG').innerHTML = image;
     })
